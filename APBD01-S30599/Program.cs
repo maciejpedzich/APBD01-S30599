@@ -3,7 +3,7 @@
 // Modyfikacja 2
 // Modyfikacja 3
 
-static double ObliczSrednia(int[] liczby)
+static double Srednia(int[] liczby)
 {
     return liczby.Average();
 }
@@ -15,5 +15,5 @@ static int ObliczMaks(int[] liczby)
 
 int[] liczby = new[] { 7, 3, 1, 2 };
 
-Console.WriteLine(ObliczSrednia(liczby));
+Console.WriteLine(Srednia(liczby));
 Console.WriteLine(ObliczMaks(liczby));

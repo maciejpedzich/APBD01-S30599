@@ -8,5 +8,12 @@ static double ObliczSrednia(int[] liczby)
     return liczby.Average();
 }
 
+static int ObliczMaks(int[] liczby)
+{
+    return liczby.Max();
+}
+
 int[] liczby = new[] { 7, 3, 1, 2 };
+
 Console.WriteLine(ObliczSrednia(liczby));
+Console.WriteLine(ObliczMaks(liczby));

@@ -3,4 +3,10 @@
 // Modyfikacja 2
 // Modyfikacja 3
 
-Console.WriteLine("Hello, World!");
+static double ObliczSrednia(int[] liczby)
+{
+    return liczby.Average();
+}
+
+int[] liczby = new[] { 7, 3, 1, 2 };
+Console.WriteLine(ObliczSrednia(liczby));

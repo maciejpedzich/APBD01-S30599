@@ -30,6 +30,8 @@ Fast-forward
 
 # Zadanie 4 - rebase
 
+## Podpunkt 4
+
 ```
 * 39e2929 Dodaj statyczną metodę znajdującą największą liczbę w tablicy
 * cd53cfa Dodaj statyczną metodę wyliczającą średnią arytmetyczną
